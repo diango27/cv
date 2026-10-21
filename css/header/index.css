@@ -1,0 +1,47 @@
+:root {
+  --custom-bleu: #0000ff;
+  --custom-blanc: #fbfbff;
+  --custom-jaune: #ffff00;
+  --custom-orange: #ffa500;
+  --custom-vert: #008000;
+}
+
+header {
+  background-color: var(--custom-bleu);
+  margin: 0 64px 0 64px;
+}
+
+.section-introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: clamp(1rem, 7vw, 4rem);
+  padding: 50px 0px 35px 0px;
+  text-align: center;
+}
+h2 {
+  font-size: clamp(1rem, 3vw, 2rem);
+  padding: 0px 0px 30px 0px;
+  text-align: center;
+}
+.div-introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.div-introduction > img {
+  width: 40%;
+  padding: 0px 0px 25px 0px;
+  min-width: 264px;
+}
+h1,
+h2 {
+  color: var(--custom-blanc);
+}
+span {
+  color: var(--custom-jaune);
+}
